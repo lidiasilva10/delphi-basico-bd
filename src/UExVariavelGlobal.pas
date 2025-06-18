@@ -4,10 +4,12 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TForm1 = class(TForm)
+  TUEFxVariavelGlogal = class(TForm)
+    lbl_txt: TLabel;
+    btn_txt: TButton;
   private
     { Private declarations }
   public
@@ -15,7 +17,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  UEFxVariavelGlogal: TUEFxVariavelGlogal;
 
 implementation
 
